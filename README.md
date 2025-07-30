@@ -1,16 +1,30 @@
-# flutter_application_1
+TEDT
 
-A new Flutter project.
+Search by name:
 
-## Getting Started
+Enter part of a university’s name into the top input field.
+For example: Middle
 
-This project is a starting point for a Flutter application.
+Filter by country:
 
-A few resources to get you started if this is your first Flutter project:
+Enter a country name to filter results.
+For example: Turkey
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Combined usage:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+You can enter both a university name and a country to refine your search.
+For example:
+Name: Middle
+Country: Turkey
+
+Important notes:
+
+If the "Name" field is empty, no search will be performed.
+The "Country" field is optional.
+New results are automatically loaded when scrolling down.
+
+
+Getting Started
+Run the following command to add dependencies:
+
+flutter pub add provider && flutter pub add json_annotation && flutter pub add http
