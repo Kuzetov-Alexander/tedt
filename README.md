@@ -1,4 +1,4 @@
-TEDT
+**TEDT**
 
 Search by name:
 
@@ -24,7 +24,7 @@ The "Country" field is optional.
 New results are automatically loaded when scrolling down.
 
 
-Getting Started
+**Getting Started**
 Run the following command to add dependencies:
 
 flutter pub add provider && flutter pub add json_annotation && flutter pub add http
